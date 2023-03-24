@@ -1,0 +1,94 @@
+## Signup
+
+{
+    "first_name":"Anuj",
+    "last_name":"Singh",
+    "phone":"+911234567890",
+    "password":"as1234567",
+    "email":"as1234567@gmail.com",
+    "user_type":"ADMIN"
+}
+
+## login
+
+{
+    "password":"as1234567",
+    "email":"as1234567@gmail.com" 
+}
+
+## add doctor
+
+{
+    "Name":"Dr. Jaya Ranganath",
+    "gender":"Male",
+    "address":"Apollo Hospitals Sheshadripuram, Bengaluru",
+    "city":"Bengaluru",
+    "Phone":"9876534210",
+    "specialisation":"Cardiologist",
+    "opening_time":"10:00",
+    "closing_time":"19:00",
+    "availabilty":"yes",
+    "availability_time":"10:00",
+    "fees": 1000
+}
+
+## update doctor
+
+{
+    "ID":2,
+    "Closing_time":"12:30"
+}
+
+## add patient
+
+{
+    "Name": "Mr Anuj Singh",
+    "Age": 27,
+    "Gender": "Male",
+    "Address": "Aces layout",
+    "City": "Benglore",
+    "Phone": "1234567890",
+    "Disease": "Heart Disease",
+    "Selected_specialisation": "Cardiologist",
+    "Patient_history": "Severe pain in Heart"
+}
+
+## delete patient
+
+{"ID":1}
+
+## delete doctor
+
+{"ID":1}
+
+## get doctor by city and specialisation
+
+{
+    "City":"Bhopal",
+    "Specialisation":"General Medicine"
+}
+
+## booking
+
+{
+   "Patient_id":5,
+   "Doctor_id":1
+}
+
+## cancel appointment
+
+{
+    "Bookingid":2
+}
+
+## get my details/patient
+
+{
+    "Phone": "9456789034"
+}
+
+## get my profile/doctor
+
+{
+    "Phone": "9456789034"
+}
